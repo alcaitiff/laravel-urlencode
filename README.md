@@ -38,7 +38,7 @@ Add a method on your App\Http\Kernel to allow the router substitution
   //This is needed because Laravel DO NOT use his own service provider system
   //You can't change the app router and the kernel router through the dependency injection
   //The framework set a router at the very beginning of the stack and do not allow changes
-  //We can only hope in future implementations actually using the injection system that allow that
+  //We can only hope in future implementations actually using the injection system allowing that
   public function setRouter(Router $router) {
     $this->router = $router;
     return $this;
