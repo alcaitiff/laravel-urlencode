@@ -1,28 +1,33 @@
 {
   "name": "alcaitiff/laravel-urlencode",
   "description": "Allow Urlencoded slashed and more in routing parameters",
-  "keywords": ["alcaitiff", "urlencode", "laravel", "laravel5"],
+  "keywords": [
+    "alcaitiff",
+    "urlencode",
+    "laravel",
+    "laravel5"
+  ],
   "license": [
     "GPL-3.0+"
   ],
   "authors": [
-      {
-          "name": "Charles Peterson",
-          "email": "artistan@gmail.com"
-      },
-      {
-        "name": "Alan Rabello",
-        "email": "alcaitiff@gmail.com"
+    {
+      "name": "Charles Peterson",
+      "email": "artistan@gmail.com"
+    },
+    {
+      "name": "Alan Rabello",
+      "email": "alcaitiff@gmail.com"
     }
   ],
   "require": {
-      "php": ">=5.3.0",
-      "illuminate/support": "5.*"
+    "php": ">=5.3.0",
+    "illuminate/support": "5.*"
   },
   "autoload": {
-      "psr-4": {
-          "Alcaitiff\\LaravelUrlEncode\\": "src/"
-      }
+    "psr-4": {
+      "Alcaitiff\\LaravelUrlEncode\\": "src/Alcaitiff/LaravelUrlEncode/"
+    }
   },
   "minimum-stability": "stable"
 }
